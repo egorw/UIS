@@ -37,7 +37,7 @@ public class FindNumbers {
 	}
 }
 
-// Не работающий код
+// Ne rabotayushchiy kod
 /*
  * StringBuilder result = new StringBuilder(); boolean foundDigit = false; for
  * (int i = 0; i < text.length(); i++) { char ch = text.charAt(i); if
