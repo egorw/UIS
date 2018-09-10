@@ -16,10 +16,10 @@ public class Launcher {
 		
 		FractionNumberOperation fno = new FractionNumberOperationImpl();
 		
-		System.out.println("Результат сложения : " + num1 + "+ " + num2 + "= " + fno.add(num1, num2));
-		System.out.println("Результат умножения : " + num1 + "* " + num2 + "= " + fno.mul(num1, num2));
-		System.out.println("Результат вычитания : " + num1 + "- " + num2 + "= " + fno.sub(num1, num2));
-		System.out.println("Результат деления : " + num1 + "/ " + num2 + "= " + fno.div(num1, num2));
+		System.out.println("Результат сложения : " + num1 + " + " + num2 + "= " + fno.add(num1, num2));
+		System.out.println("Результат умножения : " + num1 + " * " + num2 + "= " + fno.mul(num1, num2));
+		System.out.println("Результат вычитания : " + num1 + " - " + num2 + "= " + fno.sub(num1, num2));
+		System.out.println("Результат деления : " + num1 + " / " + num2 + "= " + fno.div(num1, num2));
 		
 	}
 }

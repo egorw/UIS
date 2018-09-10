@@ -52,7 +52,7 @@ public class FractionNumberImpl implements FractionNumber {
 	
 	@Override
 	public String toString() {
-		return getDividend() + "/" + getDivisor() + " (" + value() + ") ";
+		return getDividend() + "/" + getDivisor() + " (" + value() + ")";
 	}
 
 }
