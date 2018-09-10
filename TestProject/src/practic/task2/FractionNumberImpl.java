@@ -9,12 +9,16 @@ public class FractionNumberImpl implements FractionNumber {
 	
 	
 
+	public FractionNumberImpl() {
+		super();
+		
+	}
 
 
 	public FractionNumberImpl(int dividend, int divisor) {
 		super();
 		this.dividend = dividend;
-		this.divisor = divisor;
+		setDivisor(divisor);
 	}
 	
 
@@ -32,7 +36,12 @@ public class FractionNumberImpl implements FractionNumber {
 
 	@Override
 	public void setDivisor(int divisor) throws IllegalArgumentException {
-		this.divisor = divisor;
+		
+		if (divisor != 0) {
+			
+			this.divisor = divisor;
+		}
+		
 
 	}
 
@@ -45,7 +54,7 @@ public class FractionNumberImpl implements FractionNumber {
 	@Override
 	public double value() {
 		
-		double result = (double)this.dividend/(double)this.divisor;
+		double result = (double)this.dividend/this.divisor;
 		
 		return result;
 	}
