@@ -9,9 +9,11 @@ public class Launcher {
 		
 		FractionNumber num1 = new FractionNumberImpl(1, 2);
 		FractionNumber num2 = new FractionNumberImpl(1, 4);
+		FractionNumber num3 = new FractionNumberImpl();
 		
 		System.out.println(num1);
 		System.out.println(num2);
+		System.out.println(num3);
 		
 		
 		FractionNumberOperation fno = new FractionNumberOperationImpl();
